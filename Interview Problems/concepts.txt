@@ -1,0 +1,5 @@
+1. difference vs Obj Constructor & Obj Create.
+ans: 
+# in obj constructor, if there is a function inside the constructor, then it will be showed in the output, if we call the object.
+but, in Obj Creator, if we don't call the function explicitly, then it will now shown by default.
+# Obj Constructor shows the name of the Obj in the output. but in Create method, it only shows the objects (key, value) pair, not the object name.
