@@ -4,5 +4,7 @@ ans:
 but, in Obj Creator, if we don't call the function explicitly, then it will now shown by default.
 # Obj Constructor shows the name of the Obj in the output. but in Create method, it only shows the objects (key, value) pair, not the object name.
 
-2. What is the difference between Call and Apply?
+2. What is the difference between Call, Apply & Bind?
 ans: this two method works same. but in call method, we have to pass the arguments separated by comma. but in apply method we have to use the array.
+In bind method, we have to use another variable for the arguments or to pass the arguments. this variable works like a function. We have to call the variable later.
+
