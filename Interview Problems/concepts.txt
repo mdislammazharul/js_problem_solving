@@ -8,3 +8,6 @@ but, in Obj Creator, if we don't call the function explicitly, then it will now 
 ans: this two method works same. but in call method, we have to pass the arguments separated by comma. but in apply method we have to use the array.
 In bind method, we have to use another variable for the arguments or to pass the arguments. this variable works like a function. We have to call the variable later.
 
+3. Differenec between Slice & Splice method.
+ans: Both slice & splice method cuts some value from the original array. But In Slice method, the original array doesn't change / mutated. That means if it is an array [1,2,3,4,5,6]. and we splice (2,5), the new array will be --> [3, 4, 5] and the previous array will same --> [1, 2, 3, 4, 5, 6]. Whereas in Splice method, the new array will be [3, 4, 5] and the original array becomes change, that means mutated. It will be [1, 2, 6].
+
